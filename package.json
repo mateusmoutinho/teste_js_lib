@@ -1,0 +1,18 @@
+{
+  "name": "teste-js-lib",
+  "version": "1.0.0",
+  "description": "A minimal TypeScript library and CLI boilerplate",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "teste-js-cli": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
