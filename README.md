@@ -10,7 +10,7 @@ Para instalar e utilizar esta biblioteca em outro projeto, você pode instalá-l
 
 ```bash
 # Instalando a partir de um repositório Git
-npm install https://github.com/mateusmoutinho/teste-js-lib.git
+npm install https://github.com/mateusmoutinho/teste-js-lib
 
 
 # OU instalando a partir de um diretório local da sua máquina
