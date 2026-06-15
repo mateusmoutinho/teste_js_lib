@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
-import { greet } from '../lib/index';
 
 const args = process.argv.slice(2);
-const name = args[0] || 'World';
+const aaa = args[0] || 'World';
 
-console.log(greet(name));
+console.log(greet(aaa));

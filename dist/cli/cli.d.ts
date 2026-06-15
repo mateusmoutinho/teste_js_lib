@@ -1,2 +1,3 @@
 #!/usr/bin/env node
-export {};
+declare const args: string[];
+declare const aaa: string;
