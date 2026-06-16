@@ -1,10 +1,10 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outFile": "./dist/cli.js"
+    "outDir": "./dist",
+    "rootDir": "./src"
   },
   "include": [
-    "src/lib/**/*",
     "src/cli/**/*"
   ]
 }

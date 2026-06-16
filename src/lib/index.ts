@@ -1,6 +1,6 @@
-function greet(name: string): string {
+export function greet(name: string): string {
   return `Hello, ${name}! This is from the library.`;
 }
-function sub(a: number, b: number): number {
+export function sub(a: number, b: number): number {
   return a - b;
 }
