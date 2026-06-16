@@ -2,13 +2,15 @@
   "name": "teste-js-lib",
   "version": "1.0.0",
   "description": "A minimal TypeScript library and CLI boilerplate",
-  "main": "dist/bundle.js",
-  "types": "dist/bundle.d.ts",
+  "main": "dist/lib.js",
+  "types": "dist/lib.d.ts",
   "bin": {
-    "teste-js-cli": "dist/bundle.js"
+    "teste-js-cli": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "npm run build:lib && npm run build:cli",
+    "build:lib": "tsc -p tsconfig.lib.json",
+    "build:cli": "tsc -p tsconfig.cli.json",
     "prepare": "npm run build"
   },
   "files": [

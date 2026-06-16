@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outFile": "./dist/lib.js"
+  },
+  "include": [
+    "src/lib/**/*"
+  ]
+}
